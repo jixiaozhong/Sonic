@@ -235,11 +235,16 @@ class Sonic():
         _, _, bboxes = self.face_det(face_image, maxface=True)
         face_num = len(bboxes)
         bbox = []
+        bbox_s = None  # Initialize bbox_s to None
+        
         if face_num > 0:
             x1, y1, ww, hh = bboxes[0]
             x2, y2 = x1 + ww, y1 + hh
             bbox = x1, y1, x2, y2
             bbox_s = process_bbox(bbox, expand_radio=expand_ratio, height=h, width=w)
+        else:
+            # If no face is detected, use the entire image as the bounding box
+            bbox_s = [0, 0, w, h]
 
         return {
             'face_num': face_num,

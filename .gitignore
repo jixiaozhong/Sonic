@@ -134,3 +134,9 @@ dmypy.json
 res_path/
 tmp_path/
 flagged/
+
+# Replicate
+.cog
+/checkpoints/*
+!checkpoints/yoloface_v5m.pt
+*.mp4
