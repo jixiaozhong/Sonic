@@ -3,6 +3,7 @@ Sonic: Shifting Focus to Global Audio Perception in Portrait Animation, CVPR 202
 
 
 <a href='https://jixiaozhong.github.io/Sonic/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+  <a href='https://replicate.com/zsxkib/sonic'><img src='https://replicate.com/zsxkib/sonic/badge'></a>
 <a href="http://demo.sonic.jixiaozhong.online/" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Demo-Gradio-gold?style=flat&logo=Gradio&logoColor=red' alt='Demo'>
   </a>
